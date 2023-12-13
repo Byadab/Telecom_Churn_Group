@@ -1,5 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
+# Telecom Churn group case study
+> In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
+For many incumbent operators, retaining high profitable customers is the number one business goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn. In this project, we should analyze customer-level data of a leading telecom firm, build predictive models to identify customers at high risk of churn, and identify the main indicators of churn.
 
 
 ## Table of Contents
@@ -19,26 +20,29 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Most customers who are highvalue as per our analysis have a lower churn rate.
+- Although highvalue + Middle value customers together have a churn rate of above 60% and Targeting them is benefetial to the company
+- Better offers around roaming and outgoing standard calls will help reducing the churn in this segment
+- Among the given dataset company can target month of June for releasing new offers
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - version 1.4.4
+- numpy - version 1.21.5
+- sklearn - version 1.2.2
+- xgboost - version 2.0.2
+- statsmodels - version 0.14.0
+- matplotlib - version 3.7.2
+- seaborn - version 0.12.2
+- statsmodels - version 0.14.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by upgrad case study
 
 
 ## Contact
